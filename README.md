@@ -1,48 +1,68 @@
 # NeonDarkUI
 
-This template should help get you started developing with Vue 3 in Vite.
+欢迎使用 **NeonDarkUI**, 这是一款全新的暗黑风格的 UI, 有着优雅的圆角设计和柔和的颜色风格
 
-## Recommended IDE Setup
+本项目使用 **Vue3** 编写 _(不过一点 Vue3 的风味都没有呢)_
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 本地运行
 
-## Recommended Browser Setup
+首先, 要检查你是否具有以下环境:
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+| 名称     | 版本 |
+| -------- | ---- |
+| Node.js  | Any  |
+| Npm/Pnpm | Any  |
 
-## Type Support for `.vue` Imports in TS
+克隆这个项目:
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-pnpm install
+```bash
+git clone https://github.com/NeoTeakTeam/NeonDarkUI
+cd NeonDarkUI
 ```
 
-### Compile and Hot-Reload for Development
+我们再安装环境
 
-```sh
-pnpm dev
+```bash
+npm install  # Use npm
+pnpm install # Use pnpm
 ```
 
-### Type-Check, Compile and Minify for Production
+最后运行:
 
-```sh
-pnpm build
+```bash
+npm run dev  # Use npm
+pnpm run dev # Use pnpm
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### 对本项目修改
 
-```sh
-pnpm lint
+我们推荐使用 **Visual Studio Code** 对此项目进行修改, 因为它的编写能力十分强大
+
+对本项目 lint 并 format:
+
+```bash
+# Use npm
+npm run lint
+npm run format
+
+# Use pnpm
+pnpm run lint
+pnpm run format
 ```
+
+### 编译部署
+
+我们可以将本项目编译成静态网站
+
+```bash
+npm run build
+pnpm run build
+```
+
+如果想部署到 **Github Pages**, 可以自行编写一个 **Github workflow**
+
+## 帮助
+
+本喵真的没那么大的能力完全维护这个项目喵...
+
+希望各位能够对此项目提出一点意见喵!
