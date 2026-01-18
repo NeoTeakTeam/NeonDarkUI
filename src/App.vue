@@ -31,8 +31,18 @@ const toggleMenu = () => {
                     >
                 </li>
                 <li class="nav-item">
-                    <RouterLink to="/gallery" class="nav-link" active-class="active"
-                        ><i class="fas fa-flag" /> Gallery</RouterLink
+                    <RouterLink
+                        to="/gallery"
+                        class="nav-link"
+                        active-class="active"
+                        ><i class="fas fa-book" /> Gallery</RouterLink
+                    >
+                </li>
+                <li class="nav-item">
+                    <a
+                        href="https://github.com/NeoTeakTeam/NeonDarkUI/wiki"
+                        class="nav-link"
+                        ><i class="fas fa-flag" /> Wiki</a
                     >
                 </li>
             </ul>

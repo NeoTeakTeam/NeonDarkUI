@@ -19,6 +19,12 @@
                         <li>
                             <a href="https://github.com/NeoTeakTeam">GitHub</a>
                         </li>
+                        <li>
+                            <a
+                                href="https://github.com/NeoTeakTeam/NeonDarkUI/wiki"
+                                >Wiki</a
+                            >
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -44,7 +50,7 @@
                         ><span class="tooltip-text">AImixAE</span></a
                     >
                     <a
-                        href="javascript:location.href = 'mailto:' + ['NeoTeak','outlook.com'].join('@')"
+                        href="javascript:location.href = 'mailto:' + ['contact','neoteak.cn'].join('@')"
                         class="social-icon tooltip"
                         style="cursor: pointer !important"
                         ><i class="fa-solid fa-message"></i

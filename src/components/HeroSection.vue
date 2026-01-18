@@ -19,7 +19,7 @@ const props = defineProps({
                 <a
                     class="btn btn-primary btn-lg btn-ripple"
                     id="wikiLink"
-                    href="#"
+                    href="https://github.com/NeoTeakTeam/NeonDarkUI/wiki"
                 >
                     <i class="fas fa-book"></i> Wiki
                 </a>
