@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { updateContent } from "@/assets/script/updateContent";
+// import { updateContent } from "@/assets/script/updateContent";
 
 const props = defineProps({
     title: String,

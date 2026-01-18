@@ -1,4 +1,4 @@
-export const daily = [
+export const posts = [
     {
         id: 0,
         title: "Welcome!",
