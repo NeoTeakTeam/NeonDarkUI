@@ -24,7 +24,7 @@ const toggleMenu = () => {
             >
                 <i class="fas fa-bars"></i>
             </button>
-            <ul class="navbar-nav" :class="{ show: isMenuOpen }" id="navbarNav">
+            <ul class="navbar-nav" v-if="isMenuOpen" id="navbarNav">
                 <li class="nav-item">
                     <RouterLink to="/" class="nav-link" active-class="active"
                         ><i class="fas fa-home" /> 主页</RouterLink
